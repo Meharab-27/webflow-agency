@@ -56,3 +56,24 @@ nav ul li{
     font-weight:bold;
     font-size:64px;
 }
+/* action titles */
+.action{
+    display: flex;
+    gap:229px;
+    justify-content: center;
+    margin: 149px;
+    align-items: center;
+}
+.action-titles{
+    margin-bottom:23px;
+    font-weight: bold;
+    font-size:42px;
+}
+.action-description{
+    color: #252432;
+    font-size: 24px;
+
+}
+.action-pic{
+    border-radius:48px;
+}
