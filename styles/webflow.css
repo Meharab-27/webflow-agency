@@ -45,6 +45,10 @@ nav ul li{
     padding:12px 36px;
     border:none;
     margin-bottom:12px;
+
+}
+.signup-btn:hover{
+    background-color: steelblue;
 }
 .banner{
     text-align: center;
@@ -99,7 +103,13 @@ nav ul li{
     display: flex;
     justify-content: space-around;
     
+    
 }
+.number{
+    font-size:80px;
+    color: #4E47FF;
+}
+
 /* connect style */
 .form{
     margin-top: 71px;
@@ -262,4 +272,46 @@ footer-nav a:hover{
     font-size:12px;
     color: #8987A1;
     margin:0;
+}
+/* container style */
+.container{
+    text-align: center;
+    background: white;
+    padding:40px;
+    border:2 px solid #00A8E8;
+    border-radius:10px;
+    width:90%;
+    max-width:600px;
+    margin: 0 auto;
+}
+.headline{
+    font-size:2 rem;
+    font-weight:bold;
+    color:#333;
+    margin-bottom:10px;
+}
+.subtext{
+    font-size:0.96em;
+    color:#666;
+    margin-bottom:20px;
+}
+.studio-name{
+    font-weight:bold;
+    color:#333;
+}
+.cta-button{
+  margin-left:200px;
+  margin-right:200px;
+}
+.cta-button:hover{
+    background-color: steelblue;
+}
+.promo-image{
+    max-width:100%;
+    height:auto;
+    border-radius:20px;
+
+}
+.meharab{
+    display: block;
 }
