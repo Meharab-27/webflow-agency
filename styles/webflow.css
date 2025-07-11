@@ -4,6 +4,11 @@
 
   font-style: normal;
 }
+body{
+    background-color: #F5F8FF;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
     background-image:url('../Assets/Hero-bg.png')
 
@@ -76,4 +81,85 @@ nav ul li{
 }
 .action-pic{
     border-radius:48px;
+}
+/* about-styles */
+.about{
+    text-align: center;
+    background-color:#f1f3ff;
+    border-radius: 24px;
+    padding:48px 80px;
+    margin:120px 200px;
+}
+.about-items{
+    font-weight: bold;
+    font-size:38px;
+
+}
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* connect style */
+.form{
+    margin-top: 71px;
+}
+.connect-column{
+    display: flex;
+    gap:117px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom:150px;
+}
+section input[type="text"],section input[type="email"],section textarea{
+    display: block;
+    font-size:18px;
+    font-weight: 400;
+    width:497px;
+    padding: 19px;
+}
+
+.connect-title{
+    font-weight: bold;
+    font-size:97px ;
+    margin-top:200px;
+    margin-bottom:200px;
+}
+.input{
+    background-color:white;
+    padding: 32px;
+}
+.get-touch{
+    width:540px;
+    height: 62px;
+    margin-top:19px;
+}
+/* footer styles */
+.footer{
+    text-align: center;
+    padding:48px 20px;
+    background-color: #f9f9f9;
+}
+.footer-logo{
+    font-size:48px;
+    font-weight:bold;
+    color:#4E47FF;
+    margin-bottom: 20px;
+}
+.footer-description{
+    font-size:16px;
+    max-width:600px;
+    margin:0 auto 30px auto;
+    color: #888;
+}
+.footer-nav a{
+    margin:0 14px;
+    text-decoration:none;
+    font-size:14px;
+    color: #888;
+
+}
+footer-nav a:hover{
+    color: #4A3AFF;
 }
