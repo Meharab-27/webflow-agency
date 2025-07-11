@@ -147,6 +147,8 @@ section input[type="text"],section input[type="email"],section textarea{
     border-radius:10px ;
     border:none;
 }
+
+
 .get-touch{
     width:540px;
     height: 62px;
